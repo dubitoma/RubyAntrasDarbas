@@ -1,0 +1,1 @@
+Parašyti programa, kuri apskaiciuotu plota, perimetra, istrižaine bei centro koordinates
