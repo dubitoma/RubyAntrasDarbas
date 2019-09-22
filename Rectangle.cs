@@ -7,6 +7,13 @@ using System.Text;
 
 namespace RectanglePrgr1uzd
 {
+    static void Main(string[] args)
+    {
+        Rectangle rec = new Rectangle(3,4,1,2);
+        Console.WriteLine($"Plotas: {rect.getPlotas()} \tPerimetras: {rect.getPerimetras()} \tIstrizaine: {rect.getIstrizaine()} \tCentre Coordinates:({rect.getCentreX()}.{rect.getCentreY()})");
+      
+    }
+    
     class Rectangle
     {
         public double plotis;
