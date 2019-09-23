@@ -76,33 +76,6 @@ namespace AntrasDarbas
   
         }
 
-        public TimeSpan Pauze()
-        {
-            if(pauzeslaikas)
-            {
-                
-                stopwatch.Start();
-                gettime.Start();
-                pauze.Stop();
-               
-                laikas = pauze.Elapsed;
-                pauze.Reset();
-                pauzeslaikas = false;
-                return laikas;
-
-            }
-            else
-            {
-           
-            stopwatch.Stop();
-            gettime.Stop();
-            pauze.Start();
-            pauzeslaikas = true;
-            return pauze.Elapsed;
-            }
-     
-
-        }
 
         public void pat()
         {
