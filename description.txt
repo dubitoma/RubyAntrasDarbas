@@ -1,0 +1,1 @@
+Paraðykite programà, kuri padvigubinø duoto natûraliojo skaièiaus skaitmenis. Pvz. : Jei n=1986, tai rezultatas turi bûti 11998866.
