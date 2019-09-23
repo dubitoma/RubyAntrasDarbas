@@ -1,23 +1,57 @@
-
 class Stopwatch
- 
-  def initialize()
-    @start = Time.now
-  end
    
-  def elapsed_time
-    now = Time.now
-    elapsed = now - @start
+  def start
+    @start = Time.now
     puts 'Pradzia: ' + @start.to_s
+    return @start
+  end
+
+  def elapsed_time(time)
+    now = Time.now
+    elapsed = now - time
+    puts 'Pradzia: ' + time.to_s
     puts 'Dabartinis: ' + now.to_s
     puts 'Praejas laikas: ' +  elapsed.to_s + ' seconds'
-    elapsed.to_s
+    @start = 0
   end
-   
+
+  def showTime(time)
+    now = Time.now
+    elapsed = now - time
+    puts ""
+    puts 'Praejo: ' +  elapsed.to_s + ' seconds'
+  end
+
 end
 
-#6Sekundes
+i=0
 
-s = Stopwatch.new
-sleep(6)
-puts s.elapsed_time
+while i !=1
+
+  puts "1. Pradeti"
+  puts "2. Stabdyti"
+  puts "3. Rodyti esama"
+  puts "4. exit"
+
+  s = Stopwatch.new
+  puts "Pasirinkite:"
+  x = gets.chomp.to_i
+
+
+
+  case x
+  when 1
+    s.start
+    time = s.start
+  when 2
+    puts s.elapsed_time(time)
+  when 3
+    puts s.showTime(time)
+  when 4
+    i=1 
+    puts "bye"
+  else
+    "You gave me #{x} -- I have no idea what to do with that."
+  end
+
+end
