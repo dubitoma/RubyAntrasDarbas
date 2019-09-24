@@ -1,13 +1,13 @@
 x = 10
 result = 0
-puts "Input number: "
-N = gets.to_i
+puts "Iveskite naturaluji skaiciu: "
+n = gets.to_i
 
-  while N != 0
-    skait = N % x
+  while n != 0
+    skait = n % x
     result = result + (skait*x) / 10 + (skait*x)
-    N = N - skait
+    n = n - skait
     x = x * 10
   end
 
-puts result
+puts "Gautas Rezultatas: #{result}"
