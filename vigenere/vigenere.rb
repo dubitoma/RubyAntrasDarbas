@@ -46,7 +46,7 @@ end
 
 puts 'Jeigu nori sifruoti spauskite 1, jeigu norite desifruoti spauskite 2'
 pasirinkimas = gets.chomp
-pasirinkimas == 1 ? pasirinkimas = 'encrypt' : pasirinkimas = 'decipher'
+pasirinkimas == '1' ? pasirinkimas = 'encrypt' : pasirinkimas = 'decipher'
 puts 'irasykite zodi'
 zodis = gets.chomp
 puts 'irasykite rakta'
