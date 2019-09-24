@@ -5,5 +5,6 @@ Atliko:
 Artur Tunevic,
 Tomas Dubininkas,
 Gintautas Cepas,
+Motiejus Labzentis
 
-Komandos Pavadinimas: GTA
+Komandos Pavadinimas: GTAM
