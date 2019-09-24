@@ -1,0 +1,12 @@
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\bin\Debug\Vigenere.exe.config
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\bin\Debug\Vigenere.exe
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\bin\Debug\Vigenere.pdb
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.csprojResolveAssemblyReference.cache
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.Form1.resources
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.Properties.Resources.resources
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.csproj.GenerateResource.Cache
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.exe
+c:\users\motsa\documents\visual studio 2013\Projects\Vigenere\Vigenere\obj\Debug\Vigenere.pdb
+C:\Users\motsa\Desktop\New folder (9)\vigenere\Vigenere\bin\Debug\Vigenere.exe.config
+C:\Users\motsa\Desktop\New folder (9)\vigenere\Vigenere\obj\Debug\Vigenere.exe
+C:\Users\motsa\Desktop\New folder (9)\vigenere\Vigenere\obj\Debug\Vigenere.pdb
