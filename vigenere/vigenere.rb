@@ -86,9 +86,3 @@ end
 puts 'Jeigu nori sifruoti spauskite 1, jeigu norite desifruoti spauskite 2'
 pasirinkimas = gets.chomp
 pasirinkimas = (pasirinkimas == '1' ? 'encrypt' : 'decipher')
-puts 'irasykite zodi'
-zodis = gets.chomp
-puts 'irasykite rakta'
-raktas = gets.chomp
-puts 'gautas tekstas:'
-puts encrypt(zodis, raktas, pasirinkimas)
