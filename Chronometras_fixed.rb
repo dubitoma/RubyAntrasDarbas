@@ -9,7 +9,7 @@ class Stopwatch
 
   def elapsed_time
     now = Time.now
-    elapsed = now - @start
+    elapsed = now - @start.to_i
     puts 'Pradzia: ' + @start.to_s
     puts 'Dabartinis: ' + now.to_s
     puts 'Praejas laikas: ' + elapsed.to_s + ' seconds'
@@ -18,7 +18,7 @@ class Stopwatch
 
   def show_time
     now = Time.now
-    elapsed = now - @start
+    elapsed = now - @start.to_i
     puts ''
     puts 'Praejo: ' + elapsed.to_s + ' seconds'
   end
