@@ -1,7 +1,12 @@
 # frozen_string_literal: true
 
 puts 'Iveskite naturaluji skaiciu: '
-input = gets.to_i
+
+input = gets.chomp
+
+def check(input)
+  input.to_i.to_s == input
+end
 
 def metodas(input)
   x = 10
@@ -15,4 +20,8 @@ def metodas(input)
   result
 end
 
-puts "Gautas Rezultatas: #{metodas(input)}"
+if check(input) == true
+  puts "Gautas Rezultatas: #{metodas(input.to_i)}"
+else
+  puts 'Invalid input!'
+end
