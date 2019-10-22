@@ -5,7 +5,7 @@ require_relative 'num_duplication'
 
 class DuplicationTest < Test::Unit::TestCase
   def test_simple_duplication
-    assert_equal 112_233, metodas(123), 'should return duplicated value 112233'
+    assert_equal 112233, metodas(123), 'should return duplicated value 112233'
   end
 
   def test_zero_duplication
