@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'test/unit'
-require_relative 'sudas'
+require_relative 'chronometras_fixed_tikrai'
 # :nodoc:
 class TestChronometer < Test::Unit::TestCase
   def test_start
