@@ -52,9 +52,3 @@ while i != 1
   end
 
 end
-
-## Output
-# Started: Tue Sep 03 11:44:48 +0100 2013
-# Now: Tue Sep 03 11:44:50 +0100 2013
-# Elapsed time: 2.000997 seconds
-# 2.000997
